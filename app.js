@@ -33,3 +33,10 @@ for(delBtn of delBtns){
         par.remove();
     });
 }
+
+
+// when I was creating this the new buttons added were not being deleted 
+// but I copy and paste the code in event listener which is not good
+// so to do it we can use event delagation
+// Event deligation : use event listener to parent 
+// ul.addEventListener("click",  function(){conosle.log("button clicked");});
